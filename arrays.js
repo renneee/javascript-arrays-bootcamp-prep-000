@@ -23,4 +23,3 @@ function destructivelyAddElementToEndOfArray (fruit, anotherFruit) {
   const anotherFruit = [...fruit, "pear"]
   return anotherFruit
 }
-
