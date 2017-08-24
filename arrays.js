@@ -6,10 +6,10 @@ function addElementToBeginningOfArray (array) {
   return array
 }
 
-function destructivelyAddElementToBeginningOfArray (fruit, addFruit) {
-  const fruit = ["apple", "orange"]
-  const addFruit = ["pear", ...fruit]
-  return addFruit
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  const array = ["apple", "orange"]
+  const element = ["pear", ...array]
+  return element
 }
 
 function addElementToEndOfArray (fruit) {
