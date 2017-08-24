@@ -34,5 +34,3 @@ function destructivelyRemoveElementFromEndOfArray(array) {
   array.push()
   return array
 }
-
-
