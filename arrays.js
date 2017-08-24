@@ -23,3 +23,15 @@ function destructivelyAddElementToEndOfArray (fruit, anotherFruit) {
   const anotherFruit = [...fruit, "pear"]
   return anotherFruit
 }
+
+function accessElementInArray (){
+  var fastfood = ["McDonald's", "KFC", "Chipotle"]
+  var bio = " is the best!"
+  return fastfood [2] + bio
+}
+
+function destructivelyRemoveElementFromBeginningOfArray (){
+  var fruits = ["apple", "orange", "pear"]
+  fruits.shift()
+  return fruits
+}
