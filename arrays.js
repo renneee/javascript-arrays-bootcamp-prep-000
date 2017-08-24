@@ -35,3 +35,22 @@ function destructivelyRemoveElementFromBeginningOfArray (){
   fruits.shift()
   return fruits
 }
+
+function removeElementFromBeginningOfArray () {
+  var fruits = ["apple", "orange", "pear"]
+  fruits.slice(1)
+  return fruits
+}
+
+function destructivelyRemoveElementFromEndOfArray () {
+  var fruits = ["apple", "orange", "pear"]
+  fruits.pop()
+  return fruits
+}
+
+function removeElementFromEndOfArray () {
+  var fruits = ["apple", "orange", "pear"]
+  fruits.slice(0, fruits.Length - 1)
+  return fruits
+}
+
