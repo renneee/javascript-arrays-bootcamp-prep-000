@@ -53,4 +53,3 @@ function removeElementFromEndOfArray () {
   fruits.slice(0, fruits.Length - 1)
   return fruits
 }
-
